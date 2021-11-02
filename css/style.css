@@ -1,0 +1,548 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 40%;
+    height: 80%;
+}
+.img-1{
+    width: 100%;
+}
+.img-2{
+    width: 80%;
+
+}
+.arrow{
+    margin-left: 20px;
+}
+.background{
+    width: 60%;
+    background-color: #000;
+}
+.background-2{
+    width: 100%;
+    height: 54vh;
+    background-color: #FF6433;
+}
+.button{
+    border-radius: 8px;
+    background-color: #FF6433;
+    color: #fff;
+    width: 20%;
+    height: 50px;
+}
+.button-2{
+    width: 25%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #FF6433;
+    color: #fff;
+}
+.button-3{
+    width: 25%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+}
+.car-2{
+    width: 400px;
+}
+.div-1{
+    display: flex;
+}
+.div-2{
+    background-color: #fff;
+    border: 4px solid #fff;
+    width: 500px;
+    height: 90%;
+    padding-top: 1rem;
+    padding-right: 150px;
+}
+.paragraph{
+    width: 500px;
+}
+.auto{
+    width: 500px;
+}
+.sec-2{
+    display: flex;
+    background-color: #F5F5F5;
+    height: 100vh;
+    margin-top: 50px;
+    padding-top: 2rem;
+}
+.sec-4{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+}
+.vectors{
+    display: flex;
+    margin-left: -100px;
+}
+.vector{
+    width: 15%;
+    height: 20%;
+}
+.vec-1{
+    width: 200px;
+    margin-left: 400px;
+}
+.vec-2{
+    width: 200px;
+    margin-left: 400px;
+    margin-top: 1rem;
+}
+.vec-3{
+    width: 200px;
+   margin-left: 25rem;
+}
+.vec-4{
+    width: 200px;
+     margin-left: 25rem;
+     margin-top: 1rem;
+}
+.vec-5{
+    width: 200px;
+    margin-top: 30rem;
+    margin-left: -70px;
+    margin-top: 20.6rem;
+}
+.vec-6{
+    width: 200px;
+    margin-left: 170px;
+    margin-top: -180px;
+}
+.vector-2{
+    width: 15%;
+    height: 20%;
+}
+.vector-3{
+    width: 15%;
+    height: 20%;
+}
+.check-circle{
+    margin-top: 40px;
+}
+.check-text{
+    margin-left: 30px;
+    margin-top: -30px;
+}
+.images{
+    margin-top: 10rem;
+}
+.images .pt-5{
+    margin-left: 20rem;
+    margin-top: -35rem;
+}
+.images-2{
+    margin-left: 5rem;
+    width: 60%;
+}
+.images-2 .pt-5{
+    width: 50%;
+    height: 40%;
+}
+.mechanic{
+    width: 50%;
+    height: 35%;
+    margin-left: 20rem;
+    margin-top: -25rem;
+}
+.images-2-text{
+    margin-top: 5rem;
+}
+.images-p{
+    margin-top: 30px;
+}
+.images-3{
+    width: 100%;
+    height: 54vh;
+   
+}
+.images-4{
+    width: 40%;
+    height: 54vh;
+}
+.footer-1{
+    background-color: #1E1B1B;
+    height: 80vh;
+}
+.foot-text{
+    color: #fff;
+    margin-top: 10rem;
+}
+.get-div{
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+.footer-2{
+    background-color: #000;
+    color: #fff;
+    height: 15vh;
+}
+.social-icons{
+    margin-top: 3rem;
+}
+.help{
+    color: #fff;
+    margin-top: 13rem;
+    margin-left: 10rem;
+}
+.address{
+    color: #fff;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+.open{
+    color: #fff;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+.contact{
+    margin-left: 10rem;
+}
+.fin{
+    margin-top: 10px;
+}
+.nav{
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 20px;
+}
+.nav h6{
+    margin-left: 20px;
+}
+.nav-2{
+    margin-left: 13rem;
+    margin-top: 20px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .img-1{
+       width: 500px;
+    }
+    .sec-1{
+        flex-direction: row;
+    }
+    .sec-2{
+        height: 100vh;
+    }
+    .div-2{
+        height: 90vh;
+        padding-left: -50px;
+        width: 300px;
+    }
+    .car-2{
+        width: 200px;
+    }
+    .paragraph{
+        width: 200px;
+    }
+    .d-flex{
+       flex-direction: column;
+    }
+    .background{
+        width: 100%;
+        height: 100%;
+    }
+    .button{
+        width: 40%; 
+     }
+     .arrow{
+         width: 100px;
+         margin-left: 50px;
+     }
+     .auto{
+        width: 200px;
+     }
+     .vectors{
+         margin-left: 50px;
+     }
+    .vector{
+        width: 10%;
+        height: 10%;
+    }
+    .vec-1{
+        width: 150px;
+        margin-left: 50px;
+    }
+    .vec-2{
+        width: 150px;
+        margin-left: 50px;
+    }
+    .vec-3{
+        width: 150px;
+        margin-left: 150px;
+        margin-top: 2px;
+    }
+    .vec-4{
+        width: 150px;
+        margin-left: 150px;
+        margin-top: 24px;
+    }
+    .vec-5{
+        width: 150px;
+        margin-left: 223px;
+        margin-top: 16rem;
+    }
+    .vec-6{
+        width: 150px;
+        margin-left: 380px;
+        margin-bottom: -2rem;
+    }
+    .vector-2{
+        width: 30%;
+        height: 30%;
+    }
+    .vector-3{
+        margin-left: -420px;
+        width: 30%;
+        height: 30%;
+    }
+    .images-2 .pt-5{
+       margin-left: -100px;
+    }
+    .images-2 .mechanic{
+        overflow: hidden;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .images .pt-5{
+        width: 50%;
+        margin-left: 250px;
+        margin-bottom: -150px;
+       
+    }
+    .images .car{
+        width: 50%;
+        margin-top: 1rem;
+    }
+    .images-p{
+        width: 100%;
+        font-size: 10px;
+    }
+    .images-2-text{
+        font-size: 20px;
+    }
+    .button-2{
+        width: 70%;
+    }
+    .button-3{
+        width: 70%;
+    }
+    .foot-text{
+        margin-top: 1rem;
+        width: 300px;
+        margin-left: -100px;
+    }
+    .social-icons{
+        margin-left: -100px;
+    }
+    .contact{
+        margin-left: 30px;
+        margin-top: -150px;
+    }
+    .nav{
+        margin-left: 20px;
+    }
+    .nav-2{
+        margin-left: 10px;
+    }
+    .diagnose{
+        margin-top: 150px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 426px) {
+         .div-1{
+         flex-direction: column;  
+        }
+        .paragraph{
+            width: 200px;
+        }
+        .img-1{
+            width: 295px;
+        }
+        .background{
+            width: 100%;
+        }
+        .button{
+            width: 40%;
+        }
+        .img-2{
+            width: 200px;
+            margin-left: 1rem;
+        }
+        
+        .text-white{
+            margin-left: 30px;
+
+        }
+        .container{
+            flex-direction: column;
+        }
+        .d-flex{
+            flex-direction: column;
+        }
+        .details{
+            width: 300px;
+        }
+        .arrow{
+            margin-left: 70px;
+        }
+        .div-2{
+            width: 100%;
+            height: 100vh;
+        }
+        .sec-3{
+            height: 80vh;
+            margin-top: 100rem;
+        }
+        .sec-4{
+            margin-top: 170rem;
+            flex-direction: column;
+        }
+        .text-white{
+            color: #000;
+        }
+        .vectors{
+            flex-direction: column;
+        }
+        .vec-1{
+          width: 300px;
+          margin-left: -50px;
+          margin-top: 80px;
+        }
+        .vec-2{
+            width: 300px;
+            margin-top: 300px;
+            margin-left: -50px;
+            border: 4px solid #000;
+        }
+        .vec-3{
+            width: 300px;
+            margin-top: 120px;
+            margin-left: -50px;
+            border: 4px solid #000;
+        }
+        .vec-4{
+            width: 300px;
+            margin-top: 300px;
+            border: 4px solid #000;
+            margin-left: -50px;
+            margin-bottom: -10rem;
+        }
+        .vec-5{
+            width: 300px;
+            border: 4px solid #000;
+            margin-left: 370px;
+            margin-top: 220px;
+            margin-bottom: -10rem;
+        }
+        .vec-6{
+            width: 300px;
+            border: 4px solid #000;
+            margin-top: 200px;
+           margin-left: 370px;
+
+        }
+        .pt-5{
+            margin-top: 30px;
+        }
+        .images-2{
+           margin-bottom: -2rem;
+        }
+        .images-2 .mechanic{
+            width: 300px;
+            height: 30%;
+            margin-left: -5rem;
+            margin-top: 5rem;
+        }
+        .images-2 .pt-5{
+            width: 300px;
+            margin-left: -5rem;
+            margin-top: 10rem;
+        }
+        .images-2-text{
+           margin-left: -3rem;
+           width: 600px;
+          
+        }
+        .images-p{
+            margin-left: -3rem;
+            width: 500px;
+        }
+        .images-3{
+            width: 100%;
+        }
+        .images-4{
+            width: 100%;
+        }
+        .images .pt-5{
+            margin-left: 0.1rem;
+            margin-top: 0px;
+            width: 300px;
+            height: 50%;
+        }
+        .images .car{
+            margin-left: 0.1rem;
+            width: 300px;
+            height: 50%;
+        }
+        .button-2{
+            width: 90%;
+            margin-left: -3rem;
+        }
+        .button-3{
+            width: 50%;
+        }
+        .footer-1{
+            height: 100vh;
+        }
+        .foot-text{
+            margin-top: 1rem;
+            margin-left: -9rem;
+        }
+        .social-icons{
+            margin-left: -10rem;
+        }
+        .contact{
+            margin-left: -9rem;
+            margin-top: -10rem;
+        }
+        .footer-2{
+            height: 60vh;
+        }
+        .nav{
+            margin-left: -0.5rem;
+            margin-top: 4rem;
+        }
+        .nav-2{
+            margin-left: -0rem;
+            margin-right: 1rem;
+            margin-top: 8rem;
+        }
+        .fin{
+            margin-left: 5rem;
+        }
+        
+
+}
+
+
+
